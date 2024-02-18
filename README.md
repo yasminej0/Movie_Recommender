@@ -1,5 +1,5 @@
 
-# Movie and TV Show Recommender
+# Movie and TV Show Recommender 📽️
 
 
 #### Overview
