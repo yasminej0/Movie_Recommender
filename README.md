@@ -12,8 +12,8 @@ It uses the cosine similarity between movie descriptions (based on the 'overview
 
 Here's a breakdown of the key components related to recommendation:
 
-###### TfidfVectorizer: It transforms movie overviews and keywords into a matrix of TF-IDF scores.This matrix encapsulates the significance of terms, capturing their importance in representing textual information about each movie.
+- ###### TfidfVectorizer: It transforms movie overviews and keywords into a matrix of TF-IDF scores.This matrix encapsulates the significance of terms, capturing their importance in representing textual information about each movie.
 
-###### cosine_similarity: It calculates the cosine similarity between the Tfid matrix of movie descriptions. The resulting similarity matrix is used to find movies similar to a given movie based on their textual content.
+- ###### cosine_similarity: It calculates the cosine similarity between the Tfid matrix of movie descriptions. The resulting similarity matrix is used to find movies similar to a given movie based on their textual content.
 
-###### get_recommendations: This function takes a movie title as input, calculates the cosine similarity scores, and returns a DataFrame with recommended movies based on their textual similarity.
+- ###### get_recommendations: This function takes a movie title as input, calculates the cosine similarity scores, and returns a DataFrame with recommended movies based on their textual similarity.
