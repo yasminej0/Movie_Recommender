@@ -1,4 +1,4 @@
-# Movie and TV Shows Recommender
+# Movie and TV Show Recommender
 
 
 #### Overview
