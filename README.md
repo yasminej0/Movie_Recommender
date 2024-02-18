@@ -1,3 +1,4 @@
+
 # Movie and TV Show Recommender
 
 
@@ -7,6 +8,7 @@ This application recommend movies based on user input and provides movie details
 The recommendation system in the provided code utilizes a content-based filtering approach. 
 It uses the cosine similarity between movie descriptions (based on the 'overview' and 'keywords' columns) to recommend movies that are similar to a given input movie.
 
+![Movie-Recommender-Usage](https://github.com/yasminej0/Movie_Recommender/assets/100994320/f863d42e-2267-4c77-93fb-8a2001734fc9)
 
 Here's a breakdown of the key components related to recommendation:
 
